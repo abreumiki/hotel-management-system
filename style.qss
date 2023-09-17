@@ -1,0 +1,110 @@
+/*= Style for mainwindow START
+  ==================================================== */
+	#MainWindow {
+		background-color: #fff;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon only START
+  ==================================================== */
+  	/* style for widget */
+	#icon_only_widget {
+		background-color: #000000;
+		width:80px;
+	}
+	#icon_only_widgetC {
+		background-color: #000000;
+		width:80px;
+	}
+
+    /* style for QPushButton and QLabel */
+	#icon_only_widget QPushButton, QLabel {
+		height:50px;
+		border:none;
+		/* border-bottom: 1px solid #b0b0b0; */
+	}
+	#icon_only_widgetC QPushButton, QLabel {
+		height:50px;
+		border:none;
+		/* border-bottom: 1px solid #b0b0b0; */
+	}
+
+	#icon_only_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+	#icon_only_widgetC QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	/* style for logo image */
+	#lblLogo1 {
+		padding: 5px
+	}
+	#lblLogoC {
+		padding: 5px
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon and text START
+  ==================================================== */
+	/* style for widget */
+	#full_menu_widget {
+		background-color: #000000;
+	}
+	#full_menu_widgetC {
+		background-color: #000000;
+	}
+
+	/* style for QPushButton */
+	#full_menu_widget QPushButton {
+		border:none;
+		border-radius: 3px;
+		text-align: left;
+		padding: 8px 0 8px 15px;
+		color: #788596;
+	}
+	#full_menu_widgetC QPushButton {
+		border:none;
+		border-radius: 3px;
+		text-align: left;
+		padding: 8px 0 8px 15px;
+		color: #788596;
+	}
+
+	#full_menu_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+	#full_menu_widgetC QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#full_menu_widget QPushButton:checked {
+		color: #fff;
+	}
+	#full_menu_widgetC QPushButton:checked {
+		color: #fff;
+	}
+
+	/* style for logo image */
+	#lblLogo2 {
+		padding: 5px;
+		color: #fff;
+	}
+	#lblLogoC2 {
+		padding: 5px;
+		color: #fff;
+	}
+
+	/* style for APP title */
+	#lblMenu {
+		padding-right: 10px;
+		color: #fff;
+	}
+	#lblMenuC {
+		padding-right: 10px;
+		color: #fff;
+	}
+/*= END
+  ==================================================== */
